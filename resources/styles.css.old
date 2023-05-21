@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(0, 0, 0, 80%);
+  }
+  
+  h1 {
+    color: red;
+    font-size: 40px;
+    padding-top: 4%;
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  blockquote {
+    border-left: 5px solid DodgerBlue;
+    color: white;
+  }
+  
+   {
+    border-left: 5px solid Green;
+  }
+  
+  blockquote:nth-child(3) {
+    border-left: 5px solid Orange;
+    color: orange;
+  }
+  
+  a.btn {
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a.btn:hover {
+    background-color: #ff3333;
+  }
+  

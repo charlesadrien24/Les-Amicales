@@ -1,0 +1,54 @@
+.bodyp {
+    background-color: rgba(0, 0, 0, 80%);
+    width: 88%;
+    margin: auto;
+    font-size: 1.8rem;
+  }
+  
+
+.red-heading {
+    color: red;
+    font-size: 4rem;
+    padding-top: 4%;
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .blue-text {
+    color: dodgerblue;
+  }
+  
+  .blue-blockquote {
+    border-left: 5px solid dodgerblue;
+    color: white;
+    background-color: rgba(0, 0, 0, 80%);
+    padding: 2%;
+  }
+  
+  .green-blockquote {
+    border-left: 5px solid green;
+    color: white;
+    background-color: rgba(0, 0, 0, 80%);
+    padding: 2%;
+  }
+  
+  .orange-blockquote {
+    border-left: 5px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 80%);
+    padding: 2%;
+  }
+  
+  .warning-symbol {
+    font-size: 20px;
+  }
+  
+  .bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .italic-text {
+    font-style: italic;
+  }
+  
