@@ -24,6 +24,12 @@
     background-color: rgba(0, 0, 0, 80%);
     padding: 2%;
   }
+  .red-blockquote {
+    border-left: 5px solid rgb(255, 30, 30);
+    color: white;
+    background-color: rgba(0, 0, 0, 80%);
+    padding: 4%;
+  }
   
   .green-blockquote {
     border-left: 5px solid green;
@@ -52,3 +58,20 @@
     font-style: italic;
   }
   
+
+  .setup-rsk{
+    max-width: 20%;
+
+  }
+
+  .video-yt{
+
+    /****
+    width="1268" height="713"
+    ***/
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+  }
+
