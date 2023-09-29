@@ -27,7 +27,7 @@
   .red-blockquote {
     border-left: 5px solid rgb(255, 30, 30);
     color: white;
-    background-color: rgba(0, 0, 0, 80%);
+    background-color: rgba(34, 4, 4, 0.8);
     padding: 4%;
   }
   
