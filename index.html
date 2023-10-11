@@ -7,95 +7,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Amicales RSK </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Amicales RSK - Projet Robocup" />
+    <meta name="description" content="Amicales RSK - Projet Robocup"/>
     <meta name="keywords"
-        content="rsk, soccer, robot rsk, robot soccer, robot soccer junior, developpement, python, ssl, robot ssl, kit rsk" />
-    <meta name="author" content="Charles-Adrien VLAMYNCK" />
+          content="rsk, soccer, robot rsk, robot soccer, robot soccer junior, developpement, python, ssl, robot ssl, kit rsk"/>
+    <meta name="author" content="Charles-Adrien VLAMYNCK"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet"
-        href="https://robot-soccer-kit.github.io/assets/bootstrap-icons.css?v=381c149834568d53bed95377f68040b5786fb1ea"
-        media="screen" type="text/css">
+          href="https://robot-soccer-kit.github.io/assets/bootstrap-icons.css?v=381c149834568d53bed95377f68040b5786fb1ea"
+          media="screen" type="text/css">
     <link rel="stylesheet"
-        href="https://robot-soccer-kit.github.io/assets/bootstrap.min.css?v=381c149834568d53bed95377f68040b5786fb1ea"
-        media="screen" type="text/css">
+          href="https://robot-soccer-kit.github.io/assets/bootstrap.min.css?v=381c149834568d53bed95377f68040b5786fb1ea"
+          media="screen" type="text/css">
     <link rel="stylesheet"
-        href="https://robot-soccer-kit.github.io/assets/rouge.highlight.css?v=381c149834568d53bed95377f68040b5786fb1ea"
-        media="screen" type="text/css">
+          href="https://robot-soccer-kit.github.io/assets/rouge.highlight.css?v=381c149834568d53bed95377f68040b5786fb1ea"
+          media="screen" type="text/css">
     <link rel="stylesheet"
-        href="https://robot-soccer-kit.github.io/assets/style.css?v=381c149834568d53bed95377f68040b5786fb1ea"
-        media="screen" type="text/css">
+          href="https://robot-soccer-kit.github.io/assets/style.css?v=381c149834568d53bed95377f68040b5786fb1ea"
+          media="screen" type="text/css">
 
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="https://robot-soccer-kit.github.io/assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="resources/styles.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+
 </head>
 
 <body class="bodyp">
-    <div>
-        <h1 class="red-heading"><ins><span class="blue-text">Amicales RSK</span></ins></h1>
-    </div>
+<div>
+    <h1 class="red-heading">
+        <ins><span class="blue-text">Amicales RSK</span></ins>
+    </h1>
+</div>
+<hr>
+<div>
+    <nav class="responsive-menu">
+        <div class="menu-icon" id="menu-toggle"> ☰
+            <img src="https://robot-soccer-kit.github.io/assets/imgs/logo.png" alt="Menu">
+        </div>
+        <ul class="menu-items">
+            <li class="current"><a href="./">Accueil</a></li>
+            <li>
+                <a href="/Actualité">Actualité</a>
+            </li>
+            <div class="menu-icon deux">
+                <img src="https://robot-soccer-kit.github.io/assets/imgs/logo.png" alt="Menu">
+            </div>
+            <li><a href="">Rencontres</a>
+                <ul class="sub-menu">
+                    <li><a href="/planning">Planning</a></li>
+                    <li><a href="/inscriptions">Inscription</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Ressources</a>
+                <ul class="sub-menu">
+                    <li><a href="https://robot-soccer-kit.github.io/">RSK</a></li>
+                    <li><a href="https://robot-soccer-kit.github.io/documentation">RSK Documentation</a></li>
+                    <li><a href="https://www.robocup.fr/">Robocup</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<script src="src/js/menu.js"></script>
+<div>
     <hr>
-    <div>
-        <h2>Présentation du projet :</h2>
-        <blockquote class="blue-blockquote">
-            <p>
-                Le <a href="https://www.iut.u-bordeaux.fr/info/">département Informatique</a> de l'IUT de Bordeaux
-                organise des
-                rencontres amicales de robotique. Ces rencontres sont ouvertes à tous les lycéens et collégiens ! Nous
-                vous
-                proposons des activités en fonction de vos besoins dans la mesure du possible... L'objectif est de
-                rendre
-                populaire le projet <a href="https://robot-soccer-kit.github.io/">Robot Soccer Kit</a> (RSK) par le
-                biais de
-                présentations dans les lycées et collèges, puis par des échanges autour de notre terrain !
-            </p>
-        </blockquote>
-        <br>
-        <br>
-        <h2>Actualité palpitante : 🤖🚀</h2>
-        <blockquote class="red-blockquote">
-            <p>
+    <br>
+    <h2>Présentation du projet :</h2>
+    <blockquote class="blue-blockquote">
+        <p>
+            Le <a href="https://www.iut.u-bordeaux.fr/info/">département Informatique</a> de l'IUT de Bordeaux
+            organise des
+            rencontres amicales de robotique. Ces rencontres sont ouvertes à tous les lycéens et collégiens ! Nous
+            vous
+            proposons des activités en fonction de vos besoins dans la mesure du possible... L'objectif est de
+            rendre
+            populaire le projet <a href="https://robot-soccer-kit.github.io/">Robot Soccer Kit</a> (RSK) par le
+            biais de
+            présentations dans les lycées et collèges, puis par des échanges autour de notre terrain !
+        </p>
+    </blockquote>
 
-                Nous avons le plaisir de vous annoncer que les lycées <a href="https://www.lyceekastler.fr/">Alfred
-                    Kastler</a> et <a href="https://lyceepro-pessac.fr/">Philadelphe de Gerde</a> ont intégré
-                le projet RSK avec une nouvelle promotion de BTS et de lycéens enthousiastes et passionnés ! Rejoignez
-                cette aventure unique où la robotique et la compétition se rencontrent pour repousser les frontières de
-                la technologie et du jeu dans le monde de la robotique. Il s'agit d'une opportunité exceptionnelle
-                d'apprentissage et de défi. Inspiré par la RoboCup, les Amicales RSK vous permettent d'affronter
-                d'autres équipes sur le terrain et de vous mesurer aux talents créatifs ! <br>Cette collaboration promet des
-                innovations et des compétitions mémorables lors de la RoboCup.
-                
-                <img class="setup-rsk" src="https://soccer-cam-track.org/gfx/setup.png" alt="setup-rsk">
-                <br>
-                Restez à l'affût des prochaines infos, car l'avenir s'annonce prometteur 🤖🏆 !
-
-
-
-            </p>
-        </blockquote>
-
-        <blockquote class="green-blockquote">
-            <p>
-                L'objectif de ce <a href="https://robot-soccer-kit.github.io/">projet RSK</a> est de fournir un matériel
-                open source
-                pour construire et exploiter une configuration comprenant des robots omniwheel et un terrain de football
-                surveillé
-                par une caméra. Avec cette configuration, il est possible pour deux équipes de coder un programme et de
-                jouer l'une
-                contre l'autre. Inspiré des ligues de la RoboCup, le setup peut être utilisé à des fins pédagogiques,
-                mais aussi
-                pour organiser des compétitions.
-            </p>
-            <iframe class="video-yt" src="https://www.youtube.com/embed/4NFXbaom7YQ" title="Robot Soccer Kit"
+    <blockquote class="green-blockquote">
+        <p>
+            L'objectif de ce <a href="https://robot-soccer-kit.github.io/">projet RSK</a> est de fournir un matériel
+            open source
+            pour construire et exploiter une configuration comprenant des robots omniwheel et un terrain de football
+            surveillé
+            par une caméra. Avec cette configuration, il est possible pour deux équipes de coder un programme et de
+            jouer l'une
+            contre l'autre. Inspiré des ligues de la RoboCup, le setup peut être utilisé à des fins pédagogiques,
+            mais aussi
+            pour organiser des compétitions.
+        </p>
+        <iframe class="video-yt" src="https://www.youtube.com/embed/4NFXbaom7YQ" title="Robot Soccer Kit"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-        </blockquote>
-    </div>
+    </blockquote>
     <br>
+    <br>
+    <h2>Actu : 🤖🚀</h2>
+    <blockquote class="red-blockquote">
+        <p>
+
+            Nous avons le plaisir de vous annoncer que <a href="/Actualité">[lire la suite...]</a>
+
+        </p>
+    </blockquote>
+
+</div>
+<br>
+<!--
     <div>
         <h2>Accès du site :</h2>
         <ul>
@@ -105,13 +132,15 @@
         </ul>
         <blockquote class="orange-blockquote">
             <span class="warning-symbol">&#x26A0;</span>
-            <span class="bold-underline">ATTENTION :</span>
+            <span class="bold-underline">INFO :</span>
             <p class="italic-text">Le site est en cours de développement, il est donc possible que certaines
                 fonctionnalités ne soient pas encore disponibles.
                 <br>
             Dernière mise à jour le 29/09/2023.</p>
         </blockquote>
+
     </div>
+
     <div>
         <h2>En lien avec le projet :</h2>
         <ul>
@@ -119,18 +148,18 @@
             <li><a href="https://robot-soccer-kit.github.io/documentation">RSK Documentation</a></li>
             <li><a href="https://www.robocup.fr/">Robocup</a></li>
         </ul>
-    </div>
+    </div>    -->
 
-    <div class="footer">
-        <p>©2023 - Amicales RSK Gradignan | Tous droits réservés.</p>
+<div class="footer">
+    <p>©2023 - Amicales RSK Gradignan | Tous droits réservés.</p>
 
-        <p>Site réalisé par <a>VLAMYNCK Charles-Adrien</a></p>
-        <p>
-            <a href="https://www.iut.u-bordeaux.fr/info/">Département Informatique</a> -
-            <a href="https://www.iut.u-bordeaux.fr/">IUT de Bordeaux</a> -
-            <a href="https://www.u-bordeaux.fr/">Université de Bordeaux</a>
-        </p>
-    </div>
+    <p>Site réalisé par <a href="https://vlamynck.fr">VLAMYNCK Charles-Adrien</a></p>
+    <p>
+        <a href="https://www.iut.u-bordeaux.fr/info/">Département Informatique</a> -
+        <a href="https://www.iut.u-bordeaux.fr/">IUT de Bordeaux</a> -
+        <a href="https://www.u-bordeaux.fr/">Université de Bordeaux</a>
+    </p>
+</div>
 </body>
 
 </html>

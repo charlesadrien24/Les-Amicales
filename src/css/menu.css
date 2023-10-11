@@ -1,0 +1,143 @@
+/* Styles pour le menu responsive sur PC */
+@media screen and (min-width: 768px) {
+    .menu-icon {
+        display: none; /* Masquer l'icône de menu sur PC */
+    }
+
+    .responsive-menu {
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu-items {
+        list-style: none;
+        padding: 20px;
+        background: #333;
+        display: block; /* Afficher le menu sur PC */
+        z-index: 10;
+    }
+
+    .menu-items li {
+        padding: 10px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .current > a {
+        color: red; /* Texte en rouge pour le lien actif sur PC */
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #333;
+        padding: 10px;
+        z-index: 10;
+    }
+
+    .menu-items li:hover .sub-menu {
+        display: block;
+    }
+}
+
+/* Styles pour le menu responsive sur PC */
+@media screen and (min-width: 768px) {
+    .menu-icon {
+        display: none; /* Masquer l'icône de menu sur PC */
+    }
+
+    .deux {
+        display: inline-block;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .responsive-menu {
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu-items {
+        list-style: none;
+        padding: 0.8%;
+        background: #333;
+        display: block; /* Afficher le menu sur PC */
+    }
+
+    .menu-items li {
+        display: inline-block;
+        position: relative;
+        align-items: center;
+
+
+    }
+
+    .current > a {
+        color: red; /* Texte en rouge pour l'élément de menu actuel */
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #333;
+        padding: 10px;
+
+    }
+
+    .menu-items li:hover .sub-menu {
+        display: block;
+    }
+}
+
+/* Styles pour le menu responsive sur mobile */
+@media screen and (max-width: 767px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: #333; /* Couleur de l'icône de hamburger sur mobile */
+    }
+
+    .deux {
+        display: none;
+    }
+
+    .menu-items {
+        list-style: none;
+        padding: 20px;
+        background: #333;
+        display: none; /* Masquer le menu par défaut sur mobile */
+        z-index: 10;
+        position: relative;
+    }
+
+
+    .menu-icon.active + .menu-items {
+        display: block; /* Afficher le menu lorsque l'icône est active sur mobile */
+    }
+
+    .menu-icon.active {
+        color: red; /* Change la couleur de l'icône lorsque le menu est ouvert sur mobile */
+    }
+
+    /* Styles pour les sous-menus sur mobile */
+    .menu-items li .sub-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #333;
+        padding: 10px;
+        z-index: 20;
+    }
+
+    .menu-items li:hover .sub-menu {
+        display: block;
+    }
+
+
+}
