@@ -153,3 +153,20 @@
     max-height: 100px;
     animation: logo 1s ease-in-out infinite alternate;
 }
+
+.logo-amicales {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+
+    width: 50%;
+    max-height: 10%;
+    animation: logo-amicales 1s ease-in-out infinite alternate;
+}
+
+.signature {
+    width: 200px;
+    max-height: 200px;
+    animation: signature 1s ease-in-out infinite alternate;
+}
