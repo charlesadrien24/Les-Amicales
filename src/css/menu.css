@@ -3,7 +3,7 @@
     .menu-icon {
         display: none; /* Masquer l'icône de menu sur PC */
     }
-
+    #1e90ff
     .responsive-menu {
         text-align: center;
         align-items: center;
@@ -140,4 +140,16 @@
     }
 
 
+}
+
+.ballon {
+    width: 100px;
+    max-height: 100px;
+    animation: ballon 1s ease-in-out infinite alternate;
+}
+
+.logo {
+    width: 100px;
+    max-height: 100px;
+    animation: logo 1s ease-in-out infinite alternate;
 }
