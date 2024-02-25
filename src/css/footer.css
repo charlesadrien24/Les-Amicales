@@ -1,0 +1,65 @@
+/* Style du footer */
+.footer {
+    background-color: rgba(0, 0, 0, 0.90); /* Fond noir transparent */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    text-align: center; /* Centrage du contenu */
+    color: beige; /* Couleur du texte (beige) */
+    font-size: 1.4rem; /* Taille de la police */
+}
+
+.partenaires-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.footer h1 {
+    font-size: 2.4rem; /* Taille de la police */
+    margin: 10px; /* Espacement autour du titre */
+    /*text-decoration: underline; /* Soulignement du titre */
+    color: red; /* Couleur du texte (rouge) */
+}
+
+/* Style des liens */
+.footer a {
+    color: #fff; /* Couleur du texte (blanc) */
+    /*font-size: 16px; /* Taille de la police */
+    text-decoration: none; /* Pas de soulignement */
+    margin: 10px; /* Espacement entre les liens */
+    transition: transform 0.3s; /* Transition pour l'effet de zoom */
+}
+
+/* Style des images */
+.footer img {
+    display: inline-block; /* Affichage en ligne */
+    max-width: 100%; /* Ajustement de la taille */
+    height: auto; /* Hauteur automatique */
+    margin: 4%; /* Espacement entre les images */
+    z-index: -1; /* Positionnement au second plan */
+}
+
+
+/* Effet de zoom sur les images au survol */
+.footer img:hover {
+    z-index: 8; /* Positionnement au premier plan */
+    transform: scale(2.8); /* Zoom de 20% */
+    transition: transform 0.4s; /* Transition pour l'effet de zoom */
+    border-radius: 8%; /* Coins arrondis */
+    box-shadow: 0 0 10px 6px #fff; /* Ombre portée */
+    z-index: 1; /* Positionnement au premier plan */
+    opacity: 1; /* Remove transparency */
+    
+
+}
+
+/* Effet de zoom sur les images au survol */
+.footer .white {
+    background-color: seashell; /* Fond de couleur */
+    
+}
+
+
+
