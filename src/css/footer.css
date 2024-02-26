@@ -62,4 +62,11 @@
 }
 
 
-
+/*Info-bullers*/
+.partenaires-title {
+    cursor: pointer;
+    user-select: none;
+  }
+  .partenaires {
+    display: none;
+  }
