@@ -25,6 +25,7 @@
   <link rel="shortcut icon" href="https://robot-soccer-kit.github.io/assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="../src/css/styles.css">
   <link rel="stylesheet" href="../src/css/menu.css">
+  <link rel="stylesheet" href="../src/css/info-bulle.css">
   <link rel="stylesheet" href="../src/css/footer.css">
   <script src="../src/js/menu.js"></script>
   <script src="../src/js/blockcode.js"></script>
@@ -78,6 +79,34 @@
     </nav>
   </div>
   <script src="../src/js/menu.js"></script>
+  <script src="src/js/menu.js"></script>
+  <div class="info-bulle adresse" id="info-bulle-adresse">
+    <span class="close-btn" onclick="closeInfoBulle('adresse')">×</span>
+    <h2>📢 Information :</h2>
+    <p> Cette page n'est plus mise à jour ! Nous supprimons progressivement les pages de ce site...<p/>
+    <p> Pour plus d'informations, rendez-vous sur notre nouveau site : <br>🔗 <a href="https://les-amicales.fr">Les-Amicales.fr</a>.</p>
+    <p>Merci de votre compréhension.</p>
+    <p class="italic-text">Robotiquement,<br> L'équipe des Amicales.</p>
+  </div>
+
+
+  <div class="info-bulle maintenance" id="info-bulle-maintenance" data-activation="true">
+    <span class="close-btn" onclick="closeInfoBulle('maintenance')">×</span>
+    <h2>🔧 Maintenance :</h2>
+    <p>Le site est actuellement en maintenance. Certaines pages peuvent ne pas être disponibles. Si tel est le cas, nous vous invitons à revenir ultérieurement.</p>
+    <p> Afin de vous fournir un service de qualité, nous effectuons une mise à jour constante de notre site. </p>
+    <p> Nous vous prions de nous excuser pour la gêne occasionnée. </p>
+    <p class="italic-text">Robotiquement,<br> L'équipe des Amicales.</p>
+  </div>
+
+  <div class="info-bulle version" id="info-bulle-version" data-activation="true">
+    <span class="close-btn" onclick="closeInfoBulle('version')">×</span>
+    <h2>ℹ️ Version :</h2>
+    <p>Le site a été mis à jour le 05/03/2024.</p><p id="italic-text"> La version est à jour.</p>
+  </div>
+
+  <script src="../src/js/info-bulle-maintenance.js"></script>
+  <script src="../src/js/info-bulle.js"></script>
   <hr>
 <script src="../src/js/blockcode.js"></script>
   <blockquote class="blue-blockquote">

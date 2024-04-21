@@ -1,0 +1,105 @@
+.info-bulle {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    /*background-color: #ffcccc;*/
+    color: #333;
+    padding: 1.0% 2.0%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.info-bull, p {
+    font-size: 0.9em;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+.info-bulle.adresse {
+    background-color: #ffcccc; /* Rouge clair */
+
+}
+
+.info-bulle.maintenance {
+    background-color: #ffddcc; /* Orange clair */
+    top: 4%;
+    right: 18%;
+    transform: translateX(50%);
+    font-size: 0.68em;
+}
+
+.info-bulle.version {
+    background-color: #ccffcc; /* Vert clair */
+    top: 80%;
+    right: 18%;
+    transform: translateX(50%);
+    font-size: 0.68em;
+}
+.info-bulle.version #italic-text {
+    font-style: italic;
+    font-size: 0.68em;
+}
+.italic-text {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+
+
+
+
+/* CSS for medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .info-bulle {
+        padding: 1.5% 3.0%;
+        font-size: 1.0em;
+    }
+
+    info-bulle.maintenance {
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .info-bulle.version {
+        position: fixed;
+        top: 10%;
+        right: 20%;
+        transform: translateX(-50%);
+    }
+}
+
+/* CSS for small screens */
+@media (max-width: 767px) {
+    .info-bulle {
+        padding: 0.5% 1.0%;
+        font-size: 0.6em;
+        min-width: 80%;
+    }
+    .info-bulle.maintenance {
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.6em;
+        min-width: 80%;
+    }
+
+    .info-bulle.version {
+        position: fixed;
+        top: 5%;
+        right: 10%;
+        transform: translateX(-50%);
+        font-size: 0.6em;
+        min-width: 80%;
+    }
+}
