@@ -5,15 +5,15 @@ let isUpdate = document.getElementById("info-bulle-version").getAttribute("data-
 document.addEventListener("DOMContentLoaded", function() {
     var url = window.location.href;
 
-    if (url.includes("amicales-rsk.vlamynck.fr") || url.includes("amicales.birds-audiovisuel.fr") || url.includes("http://localhost:63342/")) {
+    if (url.includes("amicales-rsk.vlamynck.fr") || url.includes("amicales.birds-audiovisuel.fr") || url.includes("amicales.birds-audiovisuel.fr") || url.includes("http://localhost:63342/")) {
         document.getElementById("info-bulle-adresse").style.display = "block";
     }
 
-    if ((url.includes("les-amicales.fr")|| url.includes("http://localhost:63342/"))&& isUpdate){
+    if ((url.includes("les-amicales.fr") || url.includes("amicales-rsk.vlamynck.fr") || url.includes("redesigned-fortnight-pq67j59xw5j2rw65-5501.app.github.dev") || url.includes("http://localhost:63342/")) && isUpdate){
         document.getElementById("info-bulle-version").style.display = "block";
     }
+    if ((url.includes("les-amicales.fr") || url.includes("redesigned-fortnight-pq67j59xw5j2rw65-5501.app.github.dev") || url.includes("redesigned-fortnight-pq67j59xw5j2rw65-5501.app.github.dev") || url.includes("http://localhost:63342/")) && isMaintenance) {
 
-    if ((url.includes("les-amicales.fr") || url.includes("http://localhost:63342/")) && isMaintenance) {
         document.getElementById("info-bulle-maintenance").style.display = "block";
     }
 });
@@ -35,5 +35,8 @@ function closeInfoBulle(id) {
 
 function closeInfoBulle() {
     document.getElementById("info-bulle").style.display = "none";
+
+
+
 }
 */
